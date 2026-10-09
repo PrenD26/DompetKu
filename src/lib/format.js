@@ -1,0 +1,1 @@
+export const rupiah = (n) => 'Rp ' + new Intl.NumberFormat('id-ID').format(n ?? 0)
